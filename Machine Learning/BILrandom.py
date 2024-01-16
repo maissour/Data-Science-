@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error,r2_score
 from sklearn.preprocessing import MinMaxScaler
 
 # Load the dataset
-data = pd.read_csv('C:/Users/Ahcene/Desktop/Project/Data/Battery_RUL_cleaned.csv')
+data = pd.read_csv('path/to/Battery_RUL_cleaned.csv')
 
 # Extract features and RUL values
 x=data.iloc[:,:-1]
