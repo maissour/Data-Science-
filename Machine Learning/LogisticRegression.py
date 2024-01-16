@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 #import data
-df = pd.read_csv('D:\Project\heart.csv',delimiter=',')
+df = pd.read_csv('path/to/heart.csv',delimiter=',')
 df.head()
 
 x = df.iloc[:,0:13]
