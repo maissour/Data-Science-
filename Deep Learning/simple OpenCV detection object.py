@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 28 10:09:49 2021
-
-@author: ahcene
-"""
 import cv2
 
 def colorProfiles(n):
