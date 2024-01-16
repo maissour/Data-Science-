@@ -13,7 +13,7 @@ from tqdm import tqdm
 features = []
 
 for i in range(1,41):
-    loc0='D:/Project/Artificial Intelligence/faces-test/s'+str(i)
+    loc0='path/to/faces-test/s'+str(i)
     for img in tqdm(os.listdir(loc0)):
        f = cv2.imread(os.path.join(loc0,img))
        fr = cv2.resize(f,(64,64))
