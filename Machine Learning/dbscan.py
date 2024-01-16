@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from numpy import unique, where
 
 
-df= pd.read_csv('C:/Users/Ahcene/Desktop/Project/Data/Mall_Customers.csv')
+df= pd.read_csv('path/to/Mall_Customers.csv')
 
 #Select the annual income and the spending score columns 
 x = df.iloc[:, [3,4]].values
