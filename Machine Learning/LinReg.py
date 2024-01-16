@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error,r2_score,mean_absolute_error
 from sklearn.linear_model import LinearRegression
 
 #import data
-df = pd.read_csv('C:/Users/Ahcene/Desktop/Project/Data/Battery_RUL_cleaned.csv')
+df = pd.read_csv('path/to/Battery_RUL_cleaned.csv')
 
 
 x=df.iloc[:,:-1]
