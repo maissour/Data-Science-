@@ -1,5 +1,5 @@
 <h1> Deep Learning Datasets </h1>
-<h4>The Database of Faces</h4>
+<h3>The Database of Faces</h3>
 <p>
 Our Database of Faces, (formerly 'The ORL Database of Faces'), contains a set of face images taken between 
 April 1992 and April 1994 at the lab. The database was used in the context of a face recognition project 
@@ -11,3 +11,10 @@ and facial details (glasses / no glasses). All the images were taken against a d
 the subjects in an upright, frontal position (with tolerance for some side movement). A preview image of the Database 
 of Faces is available on kaggle <a href="https://www.kaggle.com/datasets/kasikrit/att-database-of-faces">Here</a>.
 </p>
+</br>
+<h3>Brain MRI Images for Brain Tumor Detection</h3>
+<p>
+  You can find the dataset <a href="https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection">Here</a>
+</p>
+</br>
+
