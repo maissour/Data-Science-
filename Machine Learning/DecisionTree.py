@@ -10,7 +10,7 @@ from io import StringIO
 import os
 os.environ["PATH"] += os.pathsep + 'C:/Program Files/Graphviz/bin/'
 #import data
-df = pd.read_csv('D:/Project/heart.csv',delimiter=',')
+df = pd.read_csv('path/to/heart.csv',delimiter=',')
 df.head()
 
 x = df.iloc[:,0:13]
